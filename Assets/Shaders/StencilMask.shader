@@ -16,7 +16,7 @@ Shader "Custom/StencilMask"
         {
             Ref 1
             Comp always
-            Pass replace
+            Pass IncrSat
         }
         
         Pass

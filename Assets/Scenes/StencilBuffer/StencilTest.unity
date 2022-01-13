@@ -441,7 +441,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788089867}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -14.8, y: 14.39, z: -129.6}
+  m_LocalPosition: {x: -14.8, y: 18.53, z: 10.14}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -942,7 +942,7 @@ GameObject:
   - component: {fileID: 1509799637}
   - component: {fileID: 1509799636}
   m_Layer: 0
-  m_Name: StencilObject
+  m_Name: StencilPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -983,6 +983,8 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: de90662f619f2ac45a2524a755317712, type: 2}
+  - {fileID: 2100000, guid: 96b81c282157c8141ad79ec8b790cb8f, type: 2}
+  - {fileID: 2100000, guid: 7509f5ded4ab35b48a218ecd20c3685f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1020,7 +1022,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509799635}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -20.376577, y: 15.21, z: 8.502804}
+  m_LocalPosition: {x: -20.376577, y: 15.21, z: 4.55}
   m_LocalScale: {x: 1.8373193, y: 1.8373193, z: 1.8373193}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1051,7 +1053,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515223590}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -15, y: 15.84, z: 8.47}
+  m_LocalPosition: {x: -15, y: 16.13, z: 6.99}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children:

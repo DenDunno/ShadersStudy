@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.2/staging' branch; Version is '2021.2.3f1 (32358a8527b4) revision 3290506'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'ru' Physical Memory: 16311 MB
+OS: 'Windows 10 Pro; OS build 19043.1415; Version 2009; 64bit' Language: 'ru' Physical Memory: 16311 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ D:/Projects/ShadersStudy
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49870
+58831
 Successfully changed project path to: D:/Projects/ShadersStudy
 D:/Projects/ShadersStudy
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Projects/ShadersStudy
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 211.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 118.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
 [Subsystems] Discovering subsystems at path E:/Program Files/UnityEditors/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -58,94 +58,94 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   NVIDIA
     VRAM:     6052 MB
-    Driver:   27.21.14.5671
+    Driver:   27.21.14.5751
 Initialize mono
 Mono path[0] = 'E:/Program Files/UnityEditors/2021.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Program Files/UnityEditors/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Program Files/UnityEditors/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Program Files/UnityEditors/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003166 seconds.
+Registered in 0.003471 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 115.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 115.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.822 seconds
+- Completed reload, in  0.780 seconds
 Domain Reload Profiling:
-	ReloadAssembly (822ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (781ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (621ms)
-			LoadAssemblies (105ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (607ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (136ms)
+			SetupTypeCache (131ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (376ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (375ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
+				RefreshPlugins (116ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006711 seconds.
+Registered in 0.007534 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Projects\ShadersStudy\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Projects\ShadersStudy\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 113.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  9.992 seconds
+- Completed reload, in  2.417 seconds
 Domain Reload Profiling:
-	ReloadAssembly (9993ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (2419ms)
+		BeginReloadAssembly (202ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (9672ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (2105ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (417ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (8926ms)
+			SetupTypeCache (394ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (1384ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (114ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (8541ms)
-				ProcessInitializeOnLoadMethodAttributes (122ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (1017ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
 Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5079 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (0.7 MB). Loaded Objects now: 5530.
-Memory consumption went from 202.3 MB to 201.7 MB.
-Total: 8.029200 ms (FindLiveObjects: 1.160600 ms CreateObjectMapping: 1.137200 ms MarkObjects: 5.273800 ms  DeleteObjects: 0.455900 ms)
+Unloading 5106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5571.
+Memory consumption went from 205.2 MB to 204.5 MB.
+Total: 5.060000 ms (FindLiveObjects: 0.690600 ms CreateObjectMapping: 0.448700 ms MarkObjects: 3.576900 ms  DeleteObjects: 0.342600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,103 +159,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 366.919195 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8db1c49bef184c60124d1fc5b1630a7') in 0.054308 seconds 
+  Time since last request: 12771.261800 seconds.
+  path: Assets/Plugins/IgniteCoders/Simple Water Shader
+  artifactKey: Guid(87949537800bb9845a74540c83c13921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/IgniteCoders/Simple Water Shader using Guid(87949537800bb9845a74540c83c13921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea88195def1ccbc921200b9c9b2a757') in 0.014107 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dcc6a1f9a84d348d22bbb983ee16d7') in 0.009166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.836242 seconds.
-  path: Assets/ExampleAssets/Models/Stud.fbx
-  artifactKey: Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/Stud.fbx using Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02091814d135691f53e00a5afe6e4960') in 3.746904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/ExampleAssets/Materials/Strap_Mat.mat
-  artifactKey: Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Strap_Mat.mat using Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0010d5837b025220eca7ee8b5a29ece3') in 1.945759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 208.515996 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14d8248548f96f452dc17bafb24a4a2') in 0.006589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.551446 seconds.
-  path: Assets/ExampleAssets
-  artifactKey: Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets using Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcb487e8f74648dec2b9688c1037dc1') in 0.008889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.939966 seconds.
-  path: Assets/TutorialInfo
-  artifactKey: Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo using Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b943bdaad3813fe8e4d018e4252fe93') in 0.006494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.360946 seconds.
-  path: Assets/TutorialInfo/Scripts
-  artifactKey: Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Scripts using Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd40405b1c33fc38c3cf389a51b62526') in 0.007096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.914906 seconds.
-  path: Assets/Settings
-  artifactKey: Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings using Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3571677c4b3339ab56b48ecae5562dee') in 0.007082 seconds 
+  path: Assets/Plugins/IgniteCoders
+  artifactKey: Guid(c631f9c4af68e7841bc3e9757ba2861e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/IgniteCoders using Guid(c631f9c4af68e7841bc3e9757ba2861e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c254796bc6d6bffc95d1f1007cc7c6d') in 0.008034 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005303 seconds.
+Registered in 0.007947 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Projects\ShadersStudy\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Projects\ShadersStudy\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.680 seconds
+- Completed reload, in  1.690 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1680ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (1691ms)
+		BeginReloadAssembly (169ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1412ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1413ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (422ms)
+			SetupTypeCache (369ms)
 			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (634ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (675ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (435ms)
-				ProcessInitializeOnLoadMethodAttributes (84ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (463ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4961 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (309.8 KB). Loaded Objects now: 5631.
-Memory consumption went from 203.9 MB to 203.6 MB.
-Total: 5.072500 ms (FindLiveObjects: 0.619600 ms CreateObjectMapping: 0.610500 ms MarkObjects: 3.761200 ms  DeleteObjects: 0.080200 ms)
+Unloading 4976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (0.7 MB). Loaded Objects now: 5571.
+Memory consumption went from 196.8 MB to 196.1 MB.
+Total: 5.185900 ms (FindLiveObjects: 0.534000 ms CreateObjectMapping: 0.257600 ms MarkObjects: 4.058800 ms  DeleteObjects: 0.334300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -269,259 +227,331 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.598444 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e75bbda58e597ed465beb2f8333ca2') in 0.026997 seconds 
+  Time since last request: 1502.165515 seconds.
+  path: Assets/Materials/StencilBuffer/StencilPlane.mat
+  artifactKey: Guid(de90662f619f2ac45a2524a755317712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilBuffer/StencilPlane.mat using Guid(de90662f619f2ac45a2524a755317712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1591d94d67beb92f01969674483154c6') in 0.579939 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Settings/UniversalRP-LowQuality.asset
-  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4ef21b78251f4289021dcd4e65c831') in 0.007625 seconds 
+  Time since last request: 132.159784 seconds.
+  path: Assets/Materials/StencilBuffer/StencilPlane 1.mat
+  artifactKey: Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilBuffer/StencilPlane 1.mat using Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be77fdd6e8c18d9a0e3f2e1306449c98') in 0.034083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Materials/StencilBuffer/StencilPlane.mat
+  artifactKey: Guid(de90662f619f2ac45a2524a755317712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilBuffer/StencilPlane.mat using Guid(de90662f619f2ac45a2524a755317712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6186fd15d7d1e27a8beb0617ba9102f') in 0.022380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.605737 seconds.
+  path: Assets/Materials/StencilBuffer/PlaneBase.mat
+  artifactKey: Guid(de90662f619f2ac45a2524a755317712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilBuffer/PlaneBase.mat using Guid(de90662f619f2ac45a2524a755317712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485ad5654cde74e387ae2b31d1068341') in 0.025244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.423710 seconds.
+  path: Assets/Materials/StencilBuffer/StencilPlane 1.mat
+  artifactKey: Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilBuffer/StencilPlane 1.mat using Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c94e09bdf0f336c52f65ba4e0ece6d') in 0.028811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.036067 seconds.
+  path: Assets/Materials/StencilBuffer/StencilPlane 1.mat
+  artifactKey: Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilBuffer/StencilPlane 1.mat using Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c66d36b9f94a3261b622b88d8c569b') in 0.020111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.688106 seconds.
+  path: Assets/Materials/StencilBuffer/StencilPlane 1.mat
+  artifactKey: Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilBuffer/StencilPlane 1.mat using Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207364a6bebdd2473bef9b0aee994379') in 0.021267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.844449 seconds.
+  path: Assets/Materials/StencilBuffer/StencilPlane 1.mat
+  artifactKey: Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilBuffer/StencilPlane 1.mat using Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0431c2043e8daf89ad685977a726a648') in 0.020073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.929171 seconds.
+  path: Assets/Materials/StencilBuffer/StencilPlane 1.mat
+  artifactKey: Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilBuffer/StencilPlane 1.mat using Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f147ccd3c6dcd4bb3f27fcac6a8e0365') in 0.019302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.638008 seconds.
+  path: Assets/Materials/StencilBuffer/StencilPlane 1.mat
+  artifactKey: Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilBuffer/StencilPlane 1.mat using Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ab78e20e85b7433d44daf38a2f1719') in 0.050490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.591474 seconds.
+  path: Assets/Materials/StencilBuffer/StencilPlane 1.mat
+  artifactKey: Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilBuffer/StencilPlane 1.mat using Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8aade6d79ae2e4d3e76cdfce10e85f') in 0.021139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.699672 seconds.
+  path: Assets/Materials/StencilBuffer/StencilPlane 1.mat
+  artifactKey: Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilBuffer/StencilPlane 1.mat using Guid(96b81c282157c8141ad79ec8b790cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588b2ac7c70b6781b1cbfe8dd7377a17') in 0.016096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.603388 seconds.
+  path: Assets/Materials/StencilBuffer/StencilPlane 2.mat
+  artifactKey: Guid(7509f5ded4ab35b48a218ecd20c3685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilBuffer/StencilPlane 2.mat using Guid(7509f5ded4ab35b48a218ecd20c3685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e700dea92e395febdce9c0585c5dbfb') in 0.018705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.232325 seconds.
+  path: Assets/Materials/StencilBuffer/StencilPlane 2.mat
+  artifactKey: Guid(7509f5ded4ab35b48a218ecd20c3685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilBuffer/StencilPlane 2.mat using Guid(7509f5ded4ab35b48a218ecd20c3685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1153867ec1342a48cd8561aaa2b4f695') in 0.016520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 146.115737 seconds.
+  path: Assets/Plugins/Stylize Water Texture/Textures
+  artifactKey: Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Stylize Water Texture/Textures using Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976602cc1d087e8a9df9f571178cab1c') in 0.008903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031090 seconds.
+  path: Assets/Plugins/Stylize Water Texture/Textures/Vol_36_5_Ambient_Occlusion.png
+  artifactKey: Guid(5e3b47c76d4c55d44be834515b7fe551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Stylize Water Texture/Textures/Vol_36_5_Ambient_Occlusion.png using Guid(5e3b47c76d4c55d44be834515b7fe551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2d8a990becb593e54e5f1b5c867f51') in 0.071645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Plugins/Stylize Water Texture/Textures/Vol_36_5_Roughness.png
+  artifactKey: Guid(f10d29a80bdd36144b8303811abc46ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Stylize Water Texture/Textures/Vol_36_5_Roughness.png using Guid(f10d29a80bdd36144b8303811abc46ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e485ec7ca0e7232c80c3c21853e290c') in 0.018313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/Stylize Water Texture/Textures/Vol_36_5_Height.png
+  artifactKey: Guid(ef65c313b280a3245b7badb32cdc1c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Stylize Water Texture/Textures/Vol_36_5_Height.png using Guid(ef65c313b280a3245b7badb32cdc1c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e8d94e9abc98a0838ac93ec77f1446') in 0.018115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Plugins/Stylize Water Texture/Textures/Vol_36_5_Base_Color.png
+  artifactKey: Guid(aa701e5be2dbcd24aad4fb9c3ca284da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Stylize Water Texture/Textures/Vol_36_5_Base_Color.png using Guid(aa701e5be2dbcd24aad4fb9c3ca284da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ca685aee60c7513bd7ee7e3a34aa9e') in 0.018018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Plugins/Stylize Water Texture/Textures/Vol_36_5_Normal.png
+  artifactKey: Guid(f805e88d3eaf0f046ac4ed03de5c7c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Stylize Water Texture/Textures/Vol_36_5_Normal.png using Guid(f805e88d3eaf0f046ac4ed03de5c7c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d89d57ef30945cb8e613d8e31114fcd') in 0.022901 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Settings/UniversalRP-MediumQuality.asset
-  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb0db85b16b226b88c661c53e07742c') in 0.007826 seconds 
+  path: Assets/Plugins/Stylize Water Texture/Textures/Vol_36_5_Emissive.png
+  artifactKey: Guid(92de9fbb5fd25fe40a72ae7751d83b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Stylize Water Texture/Textures/Vol_36_5_Emissive.png using Guid(92de9fbb5fd25fe40a72ae7751d83b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce11f1866057602c416469658987f2f') in 0.017931 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Settings/UniversalRP-HighQuality.asset
-  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7257731c46b92e1784f227849c31a91') in 0.007963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Settings/UniversalRenderer.asset
-  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fc6a6cc79f7a052aa59fdd320aace1') in 0.010327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.517561 seconds.
-  path: Assets/Presets/AudioCompressedInMemory.preset
-  artifactKey: Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/AudioCompressedInMemory.preset using Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11aa55593b29254b933979ccaab9d090') in 0.009618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Presets/AudioStreaming.preset
-  artifactKey: Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/AudioStreaming.preset using Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36681d79c5d982f3f2d4944bb3a11c11') in 0.006939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Presets/NormalTexture.preset
-  artifactKey: Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/NormalTexture.preset using Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97df00ec59eae2c3a8dea5fd0d8197f0') in 0.008190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Presets/UtilityTexture.preset
-  artifactKey: Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/UtilityTexture.preset using Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e888e501f94b54f9e2712528bd34a63') in 0.007603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.355936 seconds.
-  path: Assets/Models/macs.fbx
-  artifactKey: Guid(5dc0b5d36b3df82488e7392b8e01cd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/macs.fbx using Guid(5dc0b5d36b3df82488e7392b8e01cd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abe0edd2a5b4becda5d6e79ffabbb11') in 1.101452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 553.822147 seconds.
-  path: Assets/Scripts/SimpleCameraController.cs
-  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fd6ae081ba57da0d35eae85045494b') in 0.011317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.897658 seconds.
-  path: Assets/Scripts/Water.cs
-  artifactKey: Guid(88d3ff37ab6ea574d83a60335204751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Water.cs using Guid(88d3ff37ab6ea574d83a60335204751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001c9a26b0a6d415714ddecc18e00417') in 0.006714 seconds 
+  Time since last request: 19.098031 seconds.
+  path: Assets/Materials/StencilBuffer/StencilPlane 2.mat
+  artifactKey: Guid(7509f5ded4ab35b48a218ecd20c3685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StencilBuffer/StencilPlane 2.mat using Guid(7509f5ded4ab35b48a218ecd20c3685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc51791de9d38848bcb6ac5292b9d34') in 0.019580 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007909 seconds.
+Registered in 0.006916 seconds.
 Begin MonoManager ReloadAssembly
-Could not allocate -1047326400 (1 * -1047326400) bytes
-Crash!!!
-SymInit: Symbol-SearchPath: 'E:/Program Files/UnityEditors/2021.2.3f1/Editor/Data/Mono;.;D:\Projects\ShadersStudy;D:\Projects\ShadersStudy\Library\BurstCache\JIT;E:\Program Files\UnityEditors\2021.2.3f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 534, UserName: 'Andrei'
-OS-Version: 10.0.0
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\Unity.exe:Unity.exe (00007FF61A8F0000), size: 72929280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2021.2.3.13706
-C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFEF3F70000), size: 2052096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1288
-C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFEF2190000), size: 778240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1348
-C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFEF1720000), size: 2916352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1348
-C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFEF1D90000), size: 1400832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFEF1B00000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
-C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFEF2D90000), size: 1708032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1202
-C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFEF1F90000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFEF3B30000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1202
-C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFEF19F0000), size: 1093632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1110
-C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFEF1EF0000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
-C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFEF2B30000), size: 704512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1052
-C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFEF3500000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.546
-C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFEF2290000), size: 634880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
-C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFEF33D0000), size: 1220608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1288
-C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFEF23F0000), size: 7598080 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFEF20A0000), size: 348160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1023
-C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFEF2C60000), size: 1220608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1202
-C:\WINDOWS\System32\combase.dll:combase.dll (00007FFEF3070000), size: 3493888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1348
-C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFEF2250000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFEF36B0000), size: 4661248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1237
-C:\WINDOWS\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFEF1C00000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
-C:\WINDOWS\System32\bcrypt.dll:bcrypt.dll (00007FFEF1D00000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1023
-C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFEF3EC0000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFEF3B60000), size: 839680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.985
-C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFEF1D30000), size: 393216 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1266
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFEA2C00000), size: 10215424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.2.0.0
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\optix.6.0.0.dll:optix.6.0.0.dll (00007FFEA47F0000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.0.0
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\s3tcompress.dll:s3tcompress.dll (00007FFEA47C0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: ''
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\etccompress.dll:etccompress.dll (00007FFEA3720000), size: 5066752 (result: 0), SymType: '-deferred-', PDB: ''
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFEA3C00000), size: 1740800 (result: 0), SymType: '-deferred-', PDB: ''
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FFEA35C0000), size: 1441792 (result: 0), SymType: '-deferred-', PDB: ''
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 6582272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\OpenImageDenoise.dll:OpenImageDenoise.dll (00007FFEA0A80000), size: 35123200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.3.0.0
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFEA47B0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1812.6001
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFEA0070000), size: 1187840 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFEAD260000), size: 1200128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
-C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFEDB9B0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
-C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFEF0AE0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFEE8130000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFEE8460000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFEEFF20000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFEEF2A0000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\RadeonImageFilters.dll:RadeonImageFilters.dll (00007FFE9FCB0000), size: 2961408 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.7.0.0
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFEA01A0000), size: 9306112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 20.2.172.0
-C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFEEB920000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFEDEA90000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\tbb12.dll:tbb12.dll (00007FFEA0010000), size: 389120 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFECE1E0000), size: 577536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.29.30135.0
-C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFEDB990000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.29.30135.0
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\RadeonML.dll:RadeonML.dll (00007FFEA4790000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 0.9.11.0
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFE9FF90000), size: 479232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 20.2.172.37
-C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFEDEC40000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFEDF010000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.29.30135.0
-C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFEF1550000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1266
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\OpenRL.dll:OpenRL.dll (00000211EF9E0000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
-C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (000000005AC80000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.30319.1
-C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (000000005ABA0000), size: 856064 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.30319.1
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\embree.dll:embree.dll (00007FFE9ECC0000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
-C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFEF0E40000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\tbb.dll:tbb.dll (00007FFE9EC50000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
-C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FFEACF40000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.21005.1
-C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FFEACE50000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.21005.1
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (00000211EF8C0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\tbbmalloc.dll:tbbmalloc.dll (00007FFE9EBF0000), size: 372736 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
-C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFEF1270000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFEEF590000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFEF1690000), size: 536576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1348
-C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFEEF0B0000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1266
-C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFEF3600000), size: 708608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFEEF790000), size: 7929856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\WINDOWS\SYSTEM32\Wldp.dll:Wldp.dll (00007FFEF10E0000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFEF15D0000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
-C:\WINDOWS\system32\IconCodecService.dll:IconCodecService.dll (00007FFECE0A0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
-C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFEEBB20000), size: 1785856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
-C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFEF2340000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
-C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FFEECDE0000), size: 253952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
-C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFEF2280000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.610
-C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFEEB3D0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFEEB550000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFEF0B30000), size: 831488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFEE6770000), size: 520192 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1348
-C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFEE7540000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFEAD0E0000), size: 1523712 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\vulkan-1.dll:vulkan-1.dll (00007FFEAC830000), size: 1069056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.2.141.0
-C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FFEEB410000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFEADCF0000), size: 561152 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFEEDA30000), size: 2506752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1202
-C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFEEFF60000), size: 999424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1266
-C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_1c83a5d7cffd7bff\nvldumdx.dll:nvldumdx.dll (00007FFEE8FC0000), size: 1056768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 27.21.14.5671
-C:\WINDOWS\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFEEB840000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
-C:\WINDOWS\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FFEF1030000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFEF2C40000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFEF1040000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFEF0750000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1052
-C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_1c83a5d7cffd7bff\nvwgf2umx.dll:nvwgf2umx.dll (00007FFEBAD40000), size: 44793856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 27.21.14.5671
-C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFEE9260000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFEEB420000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFEEA0B0000), size: 598016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
-C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFEE58D0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFEE46A0000), size: 1093632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFEDC5B0000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
-C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFEF1590000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.572
-C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2111.5-0\MpOav.dll:MpOav.dll (00007FFEDC3E0000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.2111.5
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\cudart64_90.dll:cudart64_90.dll (00007FFE9AAA0000), size: 397312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.14.11.9000
-C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FFE9AA20000), size: 462848 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.2.5.0
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\radeonrays.dll:radeonrays.dll (00007FFE9A990000), size: 557056 (result: 0), SymType: '-deferred-', PDB: ''
-E:\Program Files\UnityEditors\2021.2.3f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFE99490000), size: 11177984 (result: 0), SymType: '-deferred-', PDB: ''
-D:\Projects\ShadersStudy\Library\PackageCache\com.unity.burst@1.6.0\.Runtime\burst-llvm-11.dll:burst-llvm-11.dll (00007FFEAA330000), size: 38744064 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFEECFE0000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.1023
-C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\comctl32.dll:comctl32.dll (00007FFEE0800000), size: 2727936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.19041.1110
-C:\Windows\System32\thumbcache.dll:thumbcache.dll (00007FFED5F40000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
-C:\WINDOWS\SYSTEM32\policymanager.dll:policymanager.dll (00007FFEEC2A0000), size: 655360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\WINDOWS\SYSTEM32\msvcp110_win.dll:msvcp110_win.dll (00007FFEF07E0000), size: 565248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\System32\MrmCoreR.dll:MrmCoreR.dll (00007FFEE90D0000), size: 1003520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1266
-C:\Windows\System32\iertutil.dll:iertutil.dll (00007FFEE43F0000), size: 2818048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.19041.1266
-C:\WINDOWS\SYSTEM32\windows.staterepositorycore.dll:windows.staterepositorycore.dll (00007FFEDCD90000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
-C:\Windows\System32\bcp47mrm.dll:bcp47mrm.dll (00007FFEEB010000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1266
-C:\Windows\System32\Windows.UI.dll:Windows.UI.dll (00007FFEE8E70000), size: 1314816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
-C:\Windows\System32\TextInputFramework.dll:TextInputFramework.dll (00007FFEE8BB0000), size: 1019904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\Windows\System32\WindowManagementAPI.dll:WindowManagementAPI.dll (00007FFEEBFE0000), size: 659456 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Windows\System32\InputHost.dll:InputHost.dll (00007FFEE8A50000), size: 1384448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
-C:\Windows\System32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFEEE930000), size: 3530752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFEEE260000), size: 1392640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1348
-C:\Windows\System32\CoreMessaging.dll:CoreMessaging.dll (00007FFEEEC90000), size: 991232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
-C:\WINDOWS\SYSTEM32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFEEBD50000), size: 2101248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.964
-C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFEF0360000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.1348_none_91a2627ccc89e3fb\gdiplus.dll:gdiplus.dll (00007FFEE0AA0000), size: 1740800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1348
-C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FFEF2F50000), size: 1134592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1202
-C:\WINDOWS\SYSTEM32\edputil.dll:edputil.dll (00007FFED5F10000), size: 147456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FFEDB790000), size: 1335296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
-C:\WINDOWS\SYSTEM32\wkscli.dll:wkscli.dll (00007FFEF0870000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\SYSTEM32\netutils.dll:netutils.dll (00007FFEF0B20000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\WINDOWS\System32\provsvc.dll:provsvc.dll (00007FFEB14C0000), size: 512000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
-C:\WINDOWS\SYSTEM32\apphelp.dll:apphelp.dll (00007FFEEEED0000), size: 589824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\Windows\System32\OneCoreUAPCommonProxyStub.dll:OneCoreUAPCommonProxyStub.dll (00007FFEEA570000), size: 7962624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFEDC080000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.867
+Symbol file LoadedFromMemory doesn't match image D:\Projects\ShadersStudy\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\ShadersStudy\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.081 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2082ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1782ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (851ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (590ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4989 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (310.4 KB). Loaded Objects now: 5762.
+Memory consumption went from 227.8 MB to 227.5 MB.
+Total: 5.550400 ms (FindLiveObjects: 0.917100 ms CreateObjectMapping: 0.651900 ms MarkObjects: 3.887200 ms  DeleteObjects: 0.092600 ms)
 
-========== OUTPUTTING STACK TRACE ==================
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007222 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\ShadersStudy\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\ShadersStudy\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.182 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2183ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1904ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (462ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (849ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (562ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4973 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (310.5 KB). Loaded Objects now: 5764.
+Memory consumption went from 226.7 MB to 226.4 MB.
+Total: 4.764100 ms (FindLiveObjects: 0.752500 ms CreateObjectMapping: 0.474800 ms MarkObjects: 3.435900 ms  DeleteObjects: 0.099800 ms)
 
-0x00007FFEF1754F69 (KERNELBASE) RaiseException
-0x00007FFE9950064C (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\utils\mono-log-common.c:143] mono_log_write_logfile 
-0x00007FFE994EC4A2 (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\eglib\goutput.c:172] monoeg_g_logv_nofree 
-0x00007FFE994EC508 (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\eglib\goutput.c:187] monoeg_g_log 
-0x00007FFE994EBDC2 (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\eglib\gmem.c:138] monoeg_malloc0 
-0x00007FFE9965B1D2 (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\metadata\object.c:7947] mono_utf16_to_utf8len 
-0x00007FFE9965AFB3 (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\metadata\object.c:7905] mono_string_to_utf8 
-0x00007FF61B7EA2B6 (Unity) MonoStringToCpp
-0x00007FF61B83D92E (Unity) scripting_cpp_string_for
-0x00007FF61B86FA9A (Unity) TransferField_NonArray<StreamedBinaryWrite,Converter_String>
-0x00007FF61B7EB486 (Unity) ExecuteSerializationCommands<JSONRead>
-0x00007FF61B8036E8 (Unity) <lambda_23502d5cf47c99f01792cd87488ce116>::operator()
-0x00007FF61B7FE947 (Unity) TransferScriptingObject<StreamedBinaryWrite>
-0x00007FF61B808EE0 (Unity) SerializableManagedRefBackupGenerator::ExtractBackupFromInstance
-0x00007FF61B805CCE (Unity) MonoBehaviour::BackupAndDeflateManagedReferences
-0x00007FF61B8B23F3 (Unity) SerializableManagedRefsUtilities::BackupAndDeflateAll
-0x00007FF61B806192 (Unity) MonoManager::BeginReloadAssembly
-0x00007FF61B80FD37 (Unity) MonoManager::ReloadAssembly
-0x00007FF61C723822 (Unity) LoadDomainAndUserAssemblies
-0x00007FF61C723F54 (Unity) LoadUserAssemblies
-0x00007FF61CBB3648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
-0x00007FF61CC48592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007FF61CC4A81D (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007FF61CC4DC3E (Unity) asio::io_service::run
-0x00007FF61CC46A31 (Unity) IOService::Run
-0x00007FF61CBDFB98 (Unity) RunAssetImportWorkerClientV2
-0x00007FF61CBDFC6B (Unity) RunAssetImporterV2
-0x00007FF61C428A4C (Unity) Application::InitializeProject
-0x00007FF61C871FD8 (Unity) WinMain
-0x00007FF61DB813A2 (Unity) __scrt_common_main_seh
-0x00007FFEF21A7034 (KERNEL32) BaseThreadInitThunk
-0x00007FFEF3FC2651 (ntdll) RtlUserThreadStart
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 577.654713 seconds.
+  path: Assets/Scenes/StencilBuffer/StencilTest.unity
+  artifactKey: Guid(2216f2497d34edd4d888f3ffc3f699dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StencilBuffer/StencilTest.unity using Guid(2216f2497d34edd4d888f3ffc3f699dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58e59650fd1fa88b8e5e458f900318c') in 0.035684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1261.622367 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aed7bb1d03ca5650d48772c3d9bd62d') in 0.006177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.419794 seconds.
+  path: Assets/Scripts/StencilBuffer
+  artifactKey: Guid(e04ef7269a9c3d0419379744e85f8006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StencilBuffer using Guid(e04ef7269a9c3d0419379744e85f8006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c912d34b46c362014082a5e1ac8fa4e') in 0.007499 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006919 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\ShadersStudy\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\ShadersStudy\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.686 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1687ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1408ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (674ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (468ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4973 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (310.5 KB). Loaded Objects now: 5766.
+Memory consumption went from 226.7 MB to 226.4 MB.
+Total: 5.954300 ms (FindLiveObjects: 0.502000 ms CreateObjectMapping: 0.325700 ms MarkObjects: 5.050800 ms  DeleteObjects: 0.074600 ms)
 
-========== END OF STACKTRACE ===========
-
-A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
- * C:/Users/User/AppData/Local/Temp/Unity/Editor/Crashes
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27.415334 seconds.
+  path: Assets/Scenes/StencilBuffer/New Scene.unity
+  artifactKey: Guid(7dae9f76dc408e44ea06f20c3144fc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StencilBuffer/New Scene.unity using Guid(7dae9f76dc408e44ea06f20c3144fc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd82cd049aa13f5333660a285ef617bc') in 0.029193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.043794 seconds.
+  path: Assets/Scenes/StencilBuffer/StencilCube.unity
+  artifactKey: Guid(7dae9f76dc408e44ea06f20c3144fc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StencilBuffer/StencilCube.unity using Guid(7dae9f76dc408e44ea06f20c3144fc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4937ca139f72a983790f7842c2acb18a') in 0.009126 seconds 

@@ -18,8 +18,8 @@ public class MandelbrotSetSpace
     {
         float zoom = Screen.width / _cameraZoom.Zoom;
 
-        float xCoordinate = (x - _staticOffset.x) / zoom;
-        float yCoordinate = (y - _staticOffset.y) / zoom;
+        float xCoordinate = (x - _staticOffset.x + _cameraPanning.Offset.x) / zoom;
+        float yCoordinate = (y - _staticOffset.y + _cameraPanning.Offset.y) / zoom;
 
         return new Vector2(xCoordinate, yCoordinate);
     }

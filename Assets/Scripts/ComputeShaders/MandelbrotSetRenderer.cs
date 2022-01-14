@@ -16,6 +16,8 @@ public class MandelbrotSetRenderer : MonoBehaviour
 
     public void Draw(IEnumerable<Point> pointsToBeRendered, Color color)
     {
+        _texture.FillWithColor(Color.black);
+        
         foreach (Point point in pointsToBeRendered)
         {
             _texture.SetPixel(point.X, point.Y, color);

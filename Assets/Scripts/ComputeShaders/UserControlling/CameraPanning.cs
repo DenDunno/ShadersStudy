@@ -35,5 +35,6 @@ public class CameraPanning : MonoBehaviour
         }
 
         Offset += _touchStartPosition - worldTouchPosition;
+        Debug.Log(Offset);
     }
 }

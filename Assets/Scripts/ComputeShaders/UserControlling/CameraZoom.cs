@@ -38,5 +38,6 @@ public class CameraZoom : MonoBehaviour
     private void SetZoom(float zoomCoefficient)
     {
         Zoom += zoomCoefficient * _zoomSpeed * Time.deltaTime;
+        Debug.Log(Zoom);
     }
 }
